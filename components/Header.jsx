@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { Button } from "./ui/button";
 import Nav from "./nav";
+import { Button } from "@/components/ui/button";
+
 
 //components
 const Header = () => {
@@ -18,7 +19,7 @@ const Header = () => {
         <div className="hidden xl:flex items-center gap-8">
             <Nav />
             <Link href="/contact">
-             <Button>Hire me</Button>
+             <Button className="bg-red-500">Hire me</Button>
             </Link>
         </div>
 
