@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Photo = () => {
   return (
-    <div className="w-full h-full relative">
+    <div className="w-full h-full relative -mt-3">
         <motion.div 
           initial={{opacity: 0}} 
           animate={{
@@ -25,7 +25,7 @@ const Photo = () => {
           >
 
           <Image
-            src="/assets/photo.png"
+            src="/assets/my final.png"
             priority
             quality={100}
             fill
