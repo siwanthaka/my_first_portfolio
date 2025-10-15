@@ -43,7 +43,7 @@ import { motion } from 'framer-motion';
 
 const Services  = () => {
     return (
-    <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
+    <section className="min-h-[60vh] flex flex-col justify-center py-6 xl:py-0">
         <div className="container mx-auto">
             <motion.div 
                 initial={{opacity: 0}} 
@@ -57,7 +57,7 @@ const Services  = () => {
                             return (
                                 <div 
                                     key={index} 
-                                    className="group flex-1 flex flex-col justify-center gap-6">
+                                    className="group flex-1 flex flex-col justify-center gap-4">
                                 {/* top */}
                                 <div className="w-full flex justify-between items-center">
                                     <div className="text-5xl font-extrabold text-outline
