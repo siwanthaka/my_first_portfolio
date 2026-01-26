@@ -9,31 +9,39 @@ const services = [
         num: '01',
         title: 'Web Development',
         description: 
-            "lorem ggf rgdf gir efsi drgkgffn rfrgfde gtgrf erejgfvj ghfffrr. rfrfrge rev.myht ",
+            "Skilled in HTML, CSS, and JavaScript for building responsive, user-friendly websites with clean design and basic interactivity.",
         href:""
 
     },
     {
         num: '02',
-        title: 'UI/UX Design',
+        title: 'Automation',
         description: 
-            "lorem ggf rgdf gir efsi drgkgffn rfrgfde gtgrf erejgfvj ghfffrr. rfrfrge rev.myht ",
+            "Experience with Selenium and n8n to automate web tasks, testing workflows, and integrate systems with minimal manual effort.",
         href:""
 
     },
     {
         num: '03',
-        title: 'Logo Design',
+        title: 'Database Managment',
         description: 
-            "lorem ggf rgdf gir efsi drgkgffn rfrgfde gtgrf erejgfvj ghfffrr. rfrfrge rev.myht ",
+            "Basic database design skills using SQL, MongoDB, Supabase, Firebase, and Appwrite for modern application development.",
         href:""
 
     },
     {
         num: '04',
-        title: 'SEO',
+        title: 'Mobile App Development',
         description: 
-            "lorem ggf rgdf gir efsi drgkgffn rfrgfde gtgrf erejgfvj ghfffrr. rfrfrge rev.myht ",
+            "Mobile app development using Flutter, React Native, and Java to build cross-platform and native Android applications.",
+        href:""
+
+    },
+    {
+        num: '05',
+        title: 'Basic Data Analysing',
+        description: 
+            "Experience in basic data analysis with Power BI, creating interactive dashboards and simple data visualizations.",
         href:""
 
     },

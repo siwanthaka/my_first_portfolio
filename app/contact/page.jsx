@@ -32,7 +32,7 @@ const info = [
     {
         icon : <FaMapMarkedAlt/>,
         title: "Address",
-        description: "Colombo , Malabe",
+        description: "Minuwangoda",
     },
 ]
 

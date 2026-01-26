@@ -13,7 +13,7 @@ import {SiTailwindcss, SiNextdotjs} from "react-icons/si";
 
 const about = {
     title:'About me',
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eius temporibus aliquid",
+    description:"I am a Software Engineering undergraduate with an Advanced Level background in Mathematics. I have a strong interest in Python programming, automation, AI/ML, robotics, IoT, networking, mechatronics, and embedded systems development. I am highly motivated to learn new technologies and enjoy working on practical, hands-on projects. If given the opportunity, I am committed to giving my full potential to grow, innovate, and contribute effectively in these technical fields.",
     info: [
         {
             fieldName: "Name",
@@ -56,12 +56,12 @@ const about = {
 const experience = {
     icon: '/assets/resume/badge.svg',
     title: 'My Experience',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eius temporibus adffdt tu piyf gutr",
+    description: "Motivated undergraduate with hands-on academic and self-learning experience, seeking opportunities to improve skills and gain industry exposure.",
     items: [
         {
             company: "Dev Wizards pvt ltd",
-            position: "Back End developer",
-            duration: "2025 - present",
+            position: "Automation Testing",
+            duration: "2026 - present",
         },
         {
             company: "Dev Wizards pvt ltd",
@@ -70,24 +70,15 @@ const experience = {
         },
         {
             company: "Dev Wizards pvt ltd",
-            position: "Back End developer",
+            position: "Mobile App Develoing",
             duration: "2025 - present",
         },
         {
             company: "Dev Wizards pvt ltd",
-            position: "Back End developer",
+            position: "Junior Python Developer",
             duration: "2025 - present",
         },
-        {
-            company: "Dev Wizards pvt ltd",
-            position: "Back End developer",
-            duration: "2025 - present",
-        },
-        {
-            company: "Dev Wizards pvt ltd",
-            position: "Back End developer",
-            duration: "2025 - present",
-        },
+        
     ],
 };
 
@@ -96,38 +87,14 @@ const experience = {
 const education = {
     icon: '/assets/resume/badge.svg',
     title: 'My Education',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eius temporibus adffdt tu piyf gutr",
+    description: "BSc (Hons) Software Engineering undergraduate with academic experience in programming, system design, and modern software technologies.",
     items: [
         {
-            institution: "Dev Wizards pvt ltd",
-            degree: "Back End developer",
-            duration: "2025 - present",
+            institution: "Cinec campus",
+            degree: "Software Engineering",
+            duration: "2023 - 2027",
         },
-        {
-            institution: "Dev Wizards pvt ltd",
-            degree: "Back End developer",
-            duration: "2025 - present",
-        },
-        {
-            institution: "Dev Wizards pvt ltd",
-            degree: "Back End developer",
-            duration: "2025 - present",
-        },
-        {
-            institution: "Dev Wizards pvt ltd",
-            degree: "Back End developer",
-            duration: "2025 - present",
-        },
-        {
-            institution: "Dev Wizards pvt ltd",
-            degree: "Back End developer",
-            duration: "2025 - present",
-        },
-        {
-            institution: "Dev Wizards pvt ltd",
-            degree: "Back End developer",
-            duration: "2025 - present",
-        },
+        
         
     ],
 };
@@ -288,8 +255,8 @@ const Resume = () => {
                     <TabsContent value="about" className="w-full text-center xl:text-left">
                      <div className="flex flex-col gap-[30px]">
                         <h3 className="text-4xl font bold">{about.title}</h3>
-                        <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
-                        <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
+                        <p className="max-w-[1000px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
+                        <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[1000px] mx-auto xl:mx-0">
                             {about.info.map((item,index) => {
                                 return <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
                                     <span className="text-white/60">{item.fieldName}</span>
