@@ -78,7 +78,7 @@ const Contact = () => {
                                         <SelectItem value="mst">Backend Development</SelectItem>
                                         <SelectItem value="nst">DevOps Engineering</SelectItem>
                                         <SelectItem value="rst">Automation Testing</SelectItem>
-                                        <SelectItem value="pst">Python App Development</SelectItem>
+                                        <SelectItem value="pst">Python Development</SelectItem>
                                     </SelectGroup>
                                 </SelectContent>
 
