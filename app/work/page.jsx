@@ -54,16 +54,16 @@ const projects = [
   },
   {
     num: "03",
-    category: "frontend",
+    category: "MERN Project",
     title: "project 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam incidunt excepturi qui at illum molestiae ipsam maioresis temporibus mollitia lum",
     stack: [
-      { name: "Next.js" },
-      { name: "Tailwind.css" },
-      { name: "Javascript" },
+      { name: "MongoDB" },
+      { name: "Express.js" },
+      { name: "Node.js" },
     ],
-    Image: "/assets/work/thumb3.png",
+    Image: "/assets/work/Bizztrack.png",
     live: "",
     github: "",
   },
