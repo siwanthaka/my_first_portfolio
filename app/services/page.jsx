@@ -45,6 +45,14 @@ const services = [
         href:""
 
     },
+    {
+        num: '06',
+        title: 'Model Training Basics',
+        description: 
+            "Experience in basic voice and other model training with TF Lite and Python and interest on other technologies",
+        href:""
+
+    },
 ];
 
 import { motion } from 'framer-motion';
