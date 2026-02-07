@@ -5,8 +5,8 @@ import { Item } from "@radix-ui/react-select";
 import { info } from "autoprefixer";
 import { icons } from "lucide-react";
 import { comma } from "postcss/lib/list";
-import {FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs} from "react-icons/fa";
-import {SiTailwindcss, SiNextdotjs} from "react-icons/si";
+import {FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs, FaJava} from "react-icons/fa";
+import {SiTailwindcss, SiNextdotjs, SiPython, SiC, SiCplusplus} from "react-icons/si";
 
 
 //about data
@@ -47,6 +47,7 @@ const about = {
             fieldName: "Languages",
             fielsValue: "English, Sinhala",
         },
+        
     ]
 
 };
@@ -103,7 +104,7 @@ const education = {
 
 const skills = {
     title: "My Skills",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eius temporibus adffdt tu piyf gutr",
+    description: "I have a wide range of skills and technologies, with a strong interest in learning new tools and continuously improving my technical knowledge",
     skillList: [
         {
             icon: <FaHtml5 />,
@@ -137,6 +138,23 @@ const skills = {
             icon: <FaFigma />,
             name: "figma",
         },
+        {
+            icon: <SiPython />,
+            name: "python",
+        },
+        {
+            icon: <SiC />,
+            name: "c",
+        },
+        {
+            icon: <SiCplusplus />,
+            name: "c++",
+        },
+        { 
+            icon: <FaJava />, 
+            name: "java",
+        },
+        
     ],
 };
 

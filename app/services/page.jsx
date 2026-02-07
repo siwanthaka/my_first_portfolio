@@ -23,7 +23,7 @@ const services = [
     },
     {
         num: '03',
-        title: 'Database Managment',
+        title: 'Database Management',
         description: 
             "Basic database design skills using SQL, MongoDB, Supabase, Firebase, and Appwrite for modern application development.",
         href:""
@@ -39,19 +39,24 @@ const services = [
     },
     {
         num: '05',
-        title: 'Basic Data Analysing',
+        title: 'System Developing',
         description: 
-            "Experience in basic data analysis with Power BI, creating interactive dashboards and simple data visualizations.",
+            "Basic knowledge in system development, including POS systems, understanding workflows, handling data, and efficient operations.",
         href:""
-
     },
     {
         num: '06',
         title: 'Model Training Basics',
         description: 
-            "Experience in basic voice and other model training with TF Lite and Python and interest on other technologies",
+            "Basic exposure to voice and other model training using TensorFlow Lite and Python, with interest in learning more technologies.",
         href:""
-
+    },
+    {
+        num: '07',
+        title: 'Basic Data Analysis',
+        description: 
+            "Basic knowledge of data analysis using Power BI, creating interactive dashboards and simple data visualizations for reporting.",
+        href:""
     },
 ];
 
@@ -73,7 +78,7 @@ const Services  = () => {
                             return (
                                 <div 
                                     key={index} 
-                                    className="group flex-1 flex flex-col justify-center gap-4">
+                                    className="group flex-1 flex flex-col justify-center gap-4 pb-2">
                                 {/* top */}
                                 <div className="w-full flex justify-between items-center">
                                     <div className="text-5xl font-extrabold text-outline
@@ -94,7 +99,7 @@ const Services  = () => {
                                 {/* description */}
                                 <p className="text-white/60">{service.description}</p>
                                 {/* border */}
-                                <div className="border-b border-white/20 w-full"></div>
+                                <div className="border-b border-white/20 w-full mt-4"></div>
                                 </div>
                             );
                         })}

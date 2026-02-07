@@ -22,15 +22,16 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "System Developing",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam incidunt excepturi qui at illum molestiae ipsam maioresis temporibus mollitia lum",
+      "Sniper Car Care is an ongoing project for a Dubai client, developing a car service management system with POS functionality, camera-based vehicle detection, and automated messaging for vehicle owners.",
     stack: [
-      { name: "Html 5" },
-      { name: "Css 3" },
+      { name: "TailwindCSS" },
       { name: "Javascript" },
-      { name: "Html 5" },
+      { name: "Node.js" },
+      { name: "Express.js" },
+      { name: "SQL" },
     ],
     Image: "/assets/work/carservice.png",
     live: "",
@@ -80,7 +81,7 @@ const projects = [
     github: "",
   },
   {
-    num: "03",
+    num: "05",
     category: "MERN Project",
     title: "project 1",
     description:
@@ -95,7 +96,7 @@ const projects = [
     github: "",
   },
   {
-    num: "04",
+    num: "06",
     category: "MERN Project",
     title: "project 1",
     description:
