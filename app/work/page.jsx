@@ -22,7 +22,7 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "System Developing",
+    category: "Pos System",
     title: "project 1",
     description:
       "Sniper Car Care is an ongoing project for a Dubai client, developing a car service management system with POS functionality, camera-based vehicle detection, and automated messaging for vehicle owners.",
@@ -39,12 +39,13 @@ const projects = [
   },
   {
     num: "02",
-    category: "fullstack",
+    category: "Web Application",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam incidunt excepturi qui at illum molestiae ipsam maioresis temporibus mollitia lum",
+      "Travel Management Web Application developed using Java to understand core Java and OOP concepts. Includes package booking, hotel management, customers, destinations, and payments, focusing on real-world system design and development.",
     stack: [
       { name: "Java" },
+      { name: "SQL" },
     ],
     Image: "/assets/work/travel.png",
     live: "",
@@ -52,13 +53,14 @@ const projects = [
   },
   {
     num: "03",
-    category: "MERN Project",
+    category: "MERN",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam incidunt excepturi qui at illum molestiae ipsam maioresis temporibus mollitia lum",
+      "BizTrack is a MERN stack web application designed to manage business income and expenses efficiently. It helps track transactions, monitor financial records, generate reports, and analyze profit and loss, supporting better decision-making and organized business management.",
     stack: [
       { name: "MongoDB" },
       { name: "Express.js" },
+      { name: "React.js" },
       { name: "Node.js" },
     ],
     Image: "/assets/work/Bizztrack.png",
@@ -67,14 +69,13 @@ const projects = [
   },
   {
     num: "04",
-    category: "MERN Project",
+    category: "Quick Assist 1.0 App",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam incidunt excepturi qui at illum molestiae ipsam maioresis temporibus mollitia lum",
+      "Quick Assist 1.0 is a Java-based Android mobile application developed to provide fast and convenient assistance services. The app focuses on user-friendly design, efficient task handling, and applying core Java and Android development concepts in a real-world mobile environment.",
     stack: [
-      { name: "MongoDB" },
-      { name: "Express.js" },
-      { name: "Node.js" },
+      { name: "Java" },
+      
     ],
     Image: "/assets/work/QuickAssist1.png",
     live: "",
@@ -82,14 +83,13 @@ const projects = [
   },
   {
     num: "05",
-    category: "MERN Project",
+    category: "Chatbot",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam incidunt excepturi qui at illum molestiae ipsam maioresis temporibus mollitia lum",
+      "This is a simple chatbot project developed using HTML and CSS for the user interface and integrated with the DeepSeek API for generating intelligent responses. It provides real-time conversations with a clean and responsive web design.",
     stack: [
-      { name: "MongoDB" },
-      { name: "Express.js" },
-      { name: "Node.js" },
+      { name: "HTML" },
+      { name: "CSS" },
     ],
     Image: "/assets/work/chatbot.png",
     live: "",
@@ -100,11 +100,26 @@ const projects = [
     category: "MERN Project",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam incidunt excepturi qui at illum molestiae ipsam maioresis temporibus mollitia lum",
+      "Quick Assist 2.0 is an advanced Flutter-based Android application and the upgraded version of Quick Assist 1.0. It is a fully developed mobile app with enhanced features, improved performance, modern UI design, and scalable architecture for real-world service management.",
     stack: [
-      { name: "MongoDB" },
-      { name: "Express.js" },
-      { name: "Node.js" },
+      { name: "Flutter" },
+      { name: "SQLite" },
+      { name: "Supabase" },
+    ],
+    Image: "/assets/work/QuickAssist2.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "07",
+    category: "Elder Care Mobile App",
+    title: "project 1",
+    description:
+      "Sithamithuru Eldercare is an ongoing React Native mobile application designed to support elderly care and well-being. The app includes health monitoring, reminders, and caregiver communication features, providing a user-friendly and accessible platform for effective eldercare management.",
+    stack: [
+      { name: "React Native" },
+      { name: "SQLite" },
+      { name: "Firebase" },
     ],
     Image: "/assets/work/QuickAssist2.png",
     live: "",
