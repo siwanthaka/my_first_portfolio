@@ -97,7 +97,7 @@ const projects = [
   },
   {
     num: "06",
-    category: "MERN Project",
+    category: "Quick Assist 2.0 App",
     title: "project 1",
     description:
       "Quick Assist 2.0 is an advanced Flutter-based Android application and the upgraded version of Quick Assist 1.0. It is a fully developed mobile app with enhanced features, improved performance, modern UI design, and scalable architecture for real-world service management.",
