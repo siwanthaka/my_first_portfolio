@@ -121,7 +121,7 @@ const projects = [
       { name: "SQLite" },
       { name: "Firebase" },
     ],
-    Image: "/assets/work/QuickAssist2.png",
+    Image: "/assets/work/sithamithuru.png",
     live: "",
     github: "",
   },
