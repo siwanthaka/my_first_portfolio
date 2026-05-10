@@ -125,6 +125,21 @@ const projects = [
     live: "",
     github: "",
   },
+  {
+    num: "08",
+    category: "Melody Master Website",
+    title: "project 1",
+    description:
+      "A modern and responsive full-stack e-commerce website designed for musical instrument enthusiasts. MelodyMasters provides a smooth online shopping experience with a clean UI, secure cart system, product management, and responsive layouts optimized for desktop viewing.",
+    stack: [
+      { name: "PHP" },
+      { name: "SQL" },
+      { name: "HTML,CSS" },
+    ],
+    Image: "/assets/work/melodymaster.png",
+    live: "",
+    github: "",
+  },
 ];
 
 const Work = () => {
